@@ -1,0 +1,23 @@
+.success {
+    margin-top: -20vh;
+    text-align: center;
+    font-size: 5vw;
+    color: green;
+}
+
+#success-cover {
+    background-image: url('/images/speed_line.jpg');
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#time-prompt {
+    margin-top: 30vh;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#time {
+    color: green;
+}
