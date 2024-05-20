@@ -49,7 +49,7 @@ const Article = mongoose.model("Article", articleSche);
 
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/views/test.html");
+    res.sendFile(__dirname + "/views/welcome.html");
 });
 
 // Update the content of the article
